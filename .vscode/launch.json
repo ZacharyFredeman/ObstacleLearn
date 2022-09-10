@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch ObstacleLearn (Debug)",
+			"request": "launch",
+			"program": "E:\\Unreal\\projects\\ObstacleLearn\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "ObstacleLearn Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "E:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleLearn (DebugGame)",
+			"request": "launch",
+			"program": "E:\\Unreal\\projects\\ObstacleLearn\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "ObstacleLearn Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "E:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleLearn (Development)",
+			"request": "launch",
+			"program": "E:\\Unreal\\projects\\ObstacleLearn\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "ObstacleLearn Win64 Development Build",
+			"args": [
+			],
+			"cwd": "E:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleLearn (Test)",
+			"request": "launch",
+			"program": "E:\\Unreal\\projects\\ObstacleLearn\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "ObstacleLearn Win64 Test Build",
+			"args": [
+			],
+			"cwd": "E:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleLearn (Shipping)",
+			"request": "launch",
+			"program": "E:\\Unreal\\projects\\ObstacleLearn\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "ObstacleLearn Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "E:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleLearnEditor (Debug)",
+			"request": "launch",
+			"program": "E:\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "ObstacleLearnEditor Win64 Debug Build",
+			"args": [
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject"
+			],
+			"cwd": "E:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleLearnEditor (DebugGame)",
+			"request": "launch",
+			"program": "E:\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "ObstacleLearnEditor Win64 DebugGame Build",
+			"args": [
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject"
+			],
+			"cwd": "E:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleLearnEditor (Development)",
+			"request": "launch",
+			"program": "E:\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "ObstacleLearnEditor Win64 Development Build",
+			"args": [
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject"
+			],
+			"cwd": "E:\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "E:\\Unreal\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "E:\\Unreal\\UE_5.0"
+		}
+	]
+}

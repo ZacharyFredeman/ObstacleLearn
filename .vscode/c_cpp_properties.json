@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "ObstacleLearnEditor Editor Win64 Development (ObstacleLearn)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Unreal\\projects\\ObstacleLearn\\.vscode\\compileCommands_ObstacleLearn.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Unreal\\projects\\ObstacleLearn\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ObstacleLearn Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Debug",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Debug",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Debug",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Development",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Development",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Development",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Test",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Test",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Test",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Shipping",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Shipping",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"Win64",
+				"Shipping",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Debug",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Debug",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Debug",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"DebugGame",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"DebugGame",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"DebugGame",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Development",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Development",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Development",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Test",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Test",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Test",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Shipping",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Shipping",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearn HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearn HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearn",
+				"HoloLens",
+				"Shipping",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearnEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearnEditor",
+				"Win64",
+				"Debug",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearnEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearnEditor",
+				"Win64",
+				"Debug",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearnEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearnEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearnEditor",
+				"Win64",
+				"Debug",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearnEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearnEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearnEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearnEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearnEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearnEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearnEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearnEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearnEditor",
+				"Win64",
+				"Development",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearnEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleLearnEditor",
+				"Win64",
+				"Development",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleLearnEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "ObstacleLearnEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleLearnEditor",
+				"Win64",
+				"Development",
+				"E:\\Unreal\\projects\\ObstacleLearn\\ObstacleLearn.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Unreal\\UE_5.0"
+			}
+		}
+	]
+}

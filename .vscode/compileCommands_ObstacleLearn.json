@@ -1,0 +1,27 @@
+[
+	{
+		"file": "E:\\Unreal\\projects\\ObstacleLearn\\Source\\ObstacleLearn\\MovingPlatform.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Unreal\\projects\\ObstacleLearn\\.vscode\\compileCommands_ObstacleLearn\\ObstacleLearn.205.rsp",
+		"directory": "E:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Unreal\\projects\\ObstacleLearn\\Source\\ObstacleLearn\\MovingPlatform.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Unreal\\projects\\ObstacleLearn\\.vscode\\compileCommands_ObstacleLearn\\ObstacleLearn.205.rsp",
+		"directory": "E:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Unreal\\projects\\ObstacleLearn\\Source\\ObstacleLearn\\ObstacleLearn.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Unreal\\projects\\ObstacleLearn\\.vscode\\compileCommands_ObstacleLearn\\ObstacleLearn.205.rsp",
+		"directory": "E:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Unreal\\projects\\ObstacleLearn\\Source\\ObstacleLearn\\ObstacleLearn.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Unreal\\projects\\ObstacleLearn\\.vscode\\compileCommands_ObstacleLearn\\ObstacleLearn.205.rsp",
+		"directory": "E:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Unreal\\projects\\ObstacleLearn\\Source\\ObstacleLearn\\ObstacleLearn.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Unreal\\projects\\ObstacleLearn\\.vscode\\compileCommands_ObstacleLearn\\ObstacleLearn.205.rsp",
+		"directory": "E:\\Unreal\\UE_5.0\\Engine\\Source"
+	}
+]
